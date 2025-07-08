@@ -16,7 +16,7 @@ const MovieCard = ({ movie }) => {
       <img
         src={imageUrl}
         alt={movie.title}
-        className="w-full h-81 object-cover rounded-t-xl hover"
+        className="w-full h-81 object-cover rounded-t-xl"
       />
       <div className="p-4 flex flex-col justify-between h-full">
         <h2 className="text-lg font-semibold text-gray-800 truncate">{movie.title}</h2>
