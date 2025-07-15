@@ -4,11 +4,13 @@ import MovieList from "./components/MovieList";
 import MovieDetails from "./components/MovieDetails";
 import { MovieProvider } from "./context/MovieContext";
 import Navbar from "./components/Navbar";
+import LoginForm from "./login/login";
 
 
 function App() {
   return (
     <MovieProvider>
+      <LoginForm></LoginForm>
       <Router>
       <Navbar />
       <div className="min-h-screen w-full bg-black text-white">

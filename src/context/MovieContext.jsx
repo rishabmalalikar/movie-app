@@ -8,6 +8,7 @@ export const MovieProvider = ({ children }) => {
   const [selectedYear, setSelectedYear] = useState("");
   const [sortBy, setSortBy] = useState("popularity.desc");
 
+  
   return (
     <MovieContext.Provider
       value={{
